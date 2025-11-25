@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UFC Beginner Guide - Site Plan</title>
+  <link rel="stylesheet" href="site-plan.css" />
+</head>
+
+<body>
+  <header>
+    <h1>UFC Beginner's Guide - Site Plan</h1>
+    <h2>Manuel Baez</h2>
+    <h2>WDD 131 - Final Project</h2>
+
+    <img src="ufcbasics.png" alt="Site Logo" style="width:200px;">
+  </header>
+
+  <main>
+
+    <!-- PURPOSE & AUDIENCE -->
+    <section>
+      <h2>Purpose</h2>
+      <p>
+        The purpose of this website is to introduce complete beginners to the UFC by explaining the rules, weight classes, fighting styles, scoring system, and how to understand events. It will simplify MMA concepts to help new fans watch confidently.
+      </p>
+
+      <h2>Audience</h2>
+      <p>
+        This site is designed for teens and adults who are curious about the UFC but have little or no prior knowledge. It is written in simple, friendly language for beginners.
+      </p>
+    </section>
+
+    <!-- DYNAMIC ELEMENTS -->
+    <section>
+      <h2>Dynamic JavaScript Elements</h2>
+      <p>
+        The site will include several dynamic features:
+      </p>
+      <ul>
+        <li>
+          <strong>Fighter Style Filter:</strong> A set of buttons will filter a list of fighters by style (Striker, Wrestler, BJJ, etc.) using arrays and the <code>filter()</code> method.
+        </li>
+        <li>
+          <strong>Random UFC Fact Generator:</strong> When a button is clicked, a random fact object will be selected and displayed using conditional logic and DOM updates.
+        </li>
+        <li>
+          <strong>Mobile Menu Toggle:</strong> A hamburger menu will open/close using event listeners and DOM manipulation for responsive navigation.
+        </li>
+      </ul>
+    </section>
+
+    <!-- LOGO -->
+    <section>
+      <h2>Logo</h2>
+      <p>
+        The site's logo is a clean, modern graphic featuring UFC-style gloves and bold typography. This will appear on every page.
+      </p>
+      <img src="ufcbasics.png" alt="UFC Logo Example" style="width:250px;">
+    </section>
+
+    <!-- COLORS -->
+    <section>
+      <h2>Color Scheme</h2>
+      <p>Primary colors for the website:</p>
+
+      <ul>
+        <li><strong>Red:</strong> #D62828</li>
+        <li><strong>Dark Gray / Black:</strong> #1A1A1A</li>
+        <li><strong>Light Gray:</strong> #E6E6E6</li>
+        <li><strong>White:</strong> #FFFFFF</li>
+      </ul>
+
+      <img src="ufcbasics.png" alt="Color palette" style="width:300px;">
+    </section>
+
+    <!-- FONTS -->
+    <section>
+      <h2>Fonts</h2>
+      <ul>
+        <li><strong>Headers:</strong> Montserrat</li>
+        <li><strong>Body Text:</strong> Roboto</li>
+      </ul>
+    </section>
+
+    <!-- CONTENT OUTLINE -->
+    <section>
+      <h2>Content</h2>
+      <h3>Home Page</h3>
+      <p>
+        Welcome to the UFC Beginner Guide! This site will teach you what MMA is, how UFC events work, and what you should know before watching your first fight. Learn the basics and explore the world of mixed martial arts.
+      </p>
+
+      <h3>Child Page (Basics & Rules)</h3>
+      <p>
+        On this page, users can explore weight classes, fighting styles (Striking, Wrestling, BJJ), how UFC scoring works, and what a fight card is. The page includes dynamic filtering and a random fact feature.
+      </p>
+    </section>
+
+    <!-- WIREFRAMES -->
+    <section>
+      <h2>Wireframes</h2>
+
+      <h3>Home Page Wireframe (Image)</h3>
+      <img src="ufcwireframe.png" alt="Home Page Wireframe" style="width:400px;">
+
+      <h3>Child Page Wireframe (Image)</h3>
+      <img src="ufcchildwireframe.png" alt="Child Page Wireframe" style="width:400px;">
+
+      <h3>ASCII Wireframes</h3>
+
+      <h4>Home Page (ASCII)</h4>
+      <pre>
+ -----------------------------------------------------
+ | LOGO           |      NAV MENU (Home | Basics)     |
+ -----------------------------------------------------
+ |                  HERO IMAGE                         |
+ |          "Welcome to UFC Beginner Guide"            |
+ -----------------------------------------------------
+ |  Intro Text                                         |
+ |  Button: Learn UFC Basics → Child Page              |
+ -----------------------------------------------------
+ |  Footer                                            |
+ -----------------------------------------------------
+      </pre>
+
+      <h4>Child Page (ASCII)</h4>
+      <pre>
+ -----------------------------------------------------
+ | LOGO           |      NAV MENU                     |
+ -----------------------------------------------------
+ | HEADER: "UFC Basics & Rules"                       |
+ -----------------------------------------------------
+ | Weight Classes Section                             |
+ -----------------------------------------------------
+ | Fighting Styles Section                            |
+ | [Strikers] [Wrestlers] [BJJ] Filter Buttons         |
+ | Dynamic Filter Results                              |
+ -----------------------------------------------------
+ | Random UFC Fact Generator                           |
+ | [Generate Fact]                                     |
+ -----------------------------------------------------
+ | Footer                                              |
+ -----------------------------------------------------
+      </pre>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 UFC Beginner's Guide</p>
+  </footer>
+</body>
+</html>
